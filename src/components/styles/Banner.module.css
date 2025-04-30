@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: #e7e7ea;
+  margin-top: 1rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.containerImages {
+  display: flex;
+  margin-left: 13rem;
+}
+
+.roupas {
+  height: 100%;
+  width: 100%;
+
+}
+
+.containerInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+.divInfo {
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+.infoSuper {
+  font-size: 6rem;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+}
+
+.infoSale {
+  font-size: 6rem;
+  color: #000000e8;
+  font-weight: lighter;
+}
+
+.divValor {
+  display: flex;
+  flex-direction: column;
+}
+
+.infoItens {
+  color: #005cff;
+  font-size: 1.2rem;
+  letter-spacing: 10px;
+}
+
+.infoPorcentagem {
+  color: #005cff;
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: 700;
+
+}
