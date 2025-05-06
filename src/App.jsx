@@ -1,4 +1,5 @@
 import Banner from "./components/Banner"
+import Carrosel from "./components/Carrosel"
 import NavBar from "./components/NavBar"
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <NavBar />
       <Banner />
+      <Carrosel />
     </>
   )
 }

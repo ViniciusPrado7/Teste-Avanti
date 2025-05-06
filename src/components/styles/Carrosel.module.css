@@ -1,0 +1,76 @@
+.containerCarrosel{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 75vw;
+
+}
+.tituloCarrosel{
+  width: 100%;
+  text-align: start;
+  margin: 6rem 0 0 14rem;
+  font-size: 0.8rem;
+}
+.carrossel {
+    display: flex;
+    overflow-x: auto;
+    align-items: center;
+    justify-content: center;
+    scroll-behavior: smooth;
+    gap: 1rem;
+    margin: 2rem;
+  }
+  
+  .item {
+    min-width: 200px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    border-radius: 16px;
+  }
+  .imageCarrosel{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .info{
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .span{
+    display: block;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .name{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  .oldPrice{
+    font-size: 0.8rem;
+    text-decoration: line-through;
+  }
+  .price{
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .vezes{
+    font-size: 0.8rem;
+  }
+  .comprar{
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: blue;
+    border-radius: 10px;
+    color: #FFF;
+    padding: 0.8rem;
+    width: 100%;
+    border: none;
+  }
+  
