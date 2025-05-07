@@ -1,76 +1,119 @@
-.containerCarrosel{
+.containerCarrosel {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   width: 100%;
   max-width: 75vw;
+  margin-left: 16rem;
 
 }
-.tituloCarrosel{
+
+.tituloCarrosel {
   width: 100%;
   text-align: start;
-  margin: 6rem 0 0 14rem;
+  margin: 6rem 0 0 9%;
   font-size: 0.8rem;
 }
+
 .carrossel {
-    display: flex;
-    overflow-x: auto;
-    align-items: center;
-    justify-content: center;
-    scroll-behavior: smooth;
-    gap: 1rem;
-    margin: 2rem;
-  }
-  
-  .item {
-    min-width: 200px;
-    border: 1px solid #ddd;
-    padding: 10px;
-    border-radius: 8px;
-    text-align: center;
-    border-radius: 16px;
-  }
-  .imageCarrosel{
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-  }
-  .info{
-    height: 140px;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-  }
-  .span{
-    display: block;
-    text-align: center;
-    padding: 5px;
-    border-radius: 10px;
-  }
-  .name{
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin: 10px 0;
-  }
-  .oldPrice{
-    font-size: 0.8rem;
-    text-decoration: line-through;
-  }
-  .price{
-    font-size: 1.2rem;
-    font-weight: bold;
-  }
-  .vezes{
-    font-size: 0.8rem;
-  }
-  .comprar{
-    margin-top: 10px;
-    font-weight: bold;
-    background-color: blue;
-    border-radius: 10px;
-    color: #FFF;
-    padding: 0.8rem;
-    width: 100%;
-    border: none;
-  }
-  
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 1rem;
+  margin: 2rem;
+  scrollbar-width: none;
+}
+
+
+.item {
+  min-width: 210px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  border-radius: 16px;
+}
+
+.imageCarrosel {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.info {
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.span {
+  display: block;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.oldPrice {
+  font-size: 0.8rem;
+  text-decoration: line-through;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.vezes {
+  font-size: 0.8rem;
+}
+
+.comprar {
+  margin-top: 10px;
+  font-weight: bold;
+  background-color: blue;
+  border-radius: 10px;
+  color: #FFF;
+  padding: 0.8rem;
+  width: 100%;
+  border: none;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.setaLeft,
+.setaRight {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  color: blue;
+  border: 1px solid blue;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 2;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.setaLeft {
+  left: 10px;
+}
+
+.setaRight {
+  right: 10px;
+}

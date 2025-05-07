@@ -46,6 +46,22 @@ const produtos = [
     oldPrice: "R$ 99,90",
     price: "R$ 69,90",
     info: "Camisa de algodão confortável, ideal para o dia a dia."
+  },
+  {
+    id: 7,
+    nome: "Camisa Branca",
+    imagem: "/images/camisa.png", // Caminho relativo à public
+    oldPrice: "R$ 99,90",
+    price: "R$ 69,90",
+    info: "Camisa de algodão confortável, ideal para o dia a dia."
+  },
+  {
+    id: 8,
+    nome: "Camisa Branca",
+    imagem: "/images/camisa.png", // Caminho relativo à public
+    oldPrice: "R$ 99,90",
+    price: "R$ 69,90",
+    info: "Camisa de algodão confortável, ideal para o dia a dia."
   }
 
 ];
